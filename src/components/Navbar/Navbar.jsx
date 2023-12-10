@@ -14,10 +14,11 @@ const Navbar = () => {
     var User = null
 
   return (
-    <nav>
+    <nav className='main-nav'>
         <div className='navbar'>
-            <Link to='./' className='nav-item nav-logo'></Link>
+            <Link to='/' className='nav-item nav-logo'>
             <img src={logo} alt='logo' />
+            </Link>
             <Link to='/' className='nav-item nav-btn'>About</Link>
             <Link to='/' className='nav-item nav-btn'>Products</Link>
             <Link to='/' className='nav-item nav-btn'>For Teams</Link>

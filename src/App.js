@@ -1,7 +1,7 @@
 import {BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import AllRoutes from './Routes/AllRoutes';
+import AllRoutes from './Routes/AllRoutes'
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Router>
         <Navbar />
         <AllRoutes />
+
       </Router>
     </div>
   );
