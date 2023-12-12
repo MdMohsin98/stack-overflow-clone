@@ -17,6 +17,7 @@
 }
 
 .auth-container-2{
+    margin-top: 5%;
     min-width: 20%;
     display: flex;
     flex-direction: column;
@@ -37,6 +38,10 @@
     0 1px 4px rgb(0 0 0 / 10%);
 }
 
+.auth-container-2 form p{
+    word-wrap: break-word;
+}
+
 .auth-container-2 form label input{
     padding: 10px;
     width: calc(100%-30px);
@@ -49,6 +54,7 @@
 .auth-container-2 form label:nth-child(3) h4{
     margin-bottom: 5px;
     margin-top: 10px;
+    padding: 10px 5px;
 }
 
 .auth-container-2 form label:nth-child(4){
@@ -56,8 +62,8 @@
 }
 
 .auth-container-2 form label:nth-child(4) input{
-    width: 15%;
-    margin: 13px 0px;
+    width: 5%;
+    margin: 0px 10px;
 
 }
 

@@ -22,7 +22,6 @@ const Auth = () => {
               <label htmlFor="name">
                 <h4>Display Name</h4>
                 <input type="text" id='name' name='name'/>
-                
               </label>
             )
           }
@@ -40,6 +39,7 @@ const Auth = () => {
             <input type="password" name='password' id='password'/>
             { isSignup && <p style={{ color: "#666767", fontSize:"13px"}}>Password must contain atleast eight<br /> characters, including atleast 1 letter and 1<br/> number</p>}
           </label>
+          
           {
             isSignup && (
               <label htmlFor="check">
@@ -48,6 +48,7 @@ const Auth = () => {
               </label>
             )
           }
+          
           <button type='submit' className='auth-btn'>{isSignup ? 'Sign up':'Log in'}</button>
           {
             isSignup && (
